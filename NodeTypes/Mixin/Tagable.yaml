@@ -1,0 +1,5 @@
+UpAssist.Neos.Taxonomy:Mixin.Tagable:
+  properties:
+    tags:
+      search:
+        indexing: "${'#' + Array.join(Indexing.convertArrayOfNodesToArrayOfNodeIdentifiers(value), '#') + '#'}"

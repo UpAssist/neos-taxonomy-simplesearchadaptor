@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "upassist/neos-taxonomy-simplesearchadaptor",
+    "require": {
+        "upassist/neos-taxonomy": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "UpAssist\\Neos\\Taxonomy\\SimpleSearchAdaptor\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "UpAssist.Neos.Taxonomy.SimpleSearchAdaptor"
+        }
+    }
+}
