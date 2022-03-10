@@ -1,5 +1,4 @@
 prototype(UpAssist.Neos.Taxonomy:Content.TagResults) {
     // Override the result with a search query
-    result >
     result = ${Search.query(site).nodeType('UpAssist.Neos.Taxonomy:Mixin.Tagable').like('tags', this.tag).log().execute()}
 }
