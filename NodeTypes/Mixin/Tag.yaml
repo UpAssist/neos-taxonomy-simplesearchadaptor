@@ -1,8 +1,5 @@
 UpAssist.Neos.Taxonomy:Mixin.Tag:
   properties:
-    isTag:
-      search:
-        indexing: "${node.isTag}"
     tag:
       search:
         indexing: "${node.tag}"
